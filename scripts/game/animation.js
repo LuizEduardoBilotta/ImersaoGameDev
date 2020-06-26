@@ -1,11 +1,12 @@
 class Animation {
 
-    constructor ( imageCharacter, positionXCharacter, widthFrame, heightFrame, widhtSprite, 
+    constructor ( imageCharacter, positionXCharacter, variationPositionY, widthFrame, heightFrame, widhtSprite, 
                   heightSprite, numberLinesSprites, numberColumnsSprites ) {
         
         this.imageCharacter = imageCharacter;
         this.positionXCharacter = positionXCharacter;
-        this.positionYCharacter = windowHeight - heightFrame;
+        this.variationPositionY = variationPositionY;
+        this.positionYCharacter = windowHeight - heightFrame - variationPositionY;
         this.widthFrame = widthFrame;
         this.heightFrame = heightFrame;
         this.widhtSprite = widhtSprite;

@@ -1,12 +1,14 @@
 class CharacterEnemy extends Animation {
     
-    constructor(imageCharacter, positionXCharacter, widthFrame, heightFrame, widhtSprite, 
-                 heightSprite, numberLinesSprites, numberColumnsSprites) {
+    constructor(imageCharacter, positionXCharacter, variationPositionY, widthFrame, heightFrame, widhtSprite, 
+                 heightSprite, numberLinesSprites, numberColumnsSprites, delay) {
         
-        super (imageCharacter, positionXCharacter, widthFrame, heightFrame, widhtSprite, 
+        super (imageCharacter, positionXCharacter, variationPositionY, widthFrame, heightFrame, widhtSprite, 
                heightSprite, numberLinesSprites, numberColumnsSprites)
 
-        this.speed = 0;        
+        this.speed = 0;  
+        this.delay = delay;
+        this.positionXCharacter = width + this.delay;      
 
     }
 
