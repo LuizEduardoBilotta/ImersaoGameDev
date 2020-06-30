@@ -8,10 +8,11 @@ class Character extends Animation{
 
         this.gravity = 6;
         this.speedJump = 0;
-        this.heightJump = -50;
+        this.heightJump = -55;
         this.positionYCharacterInitial = height - this.heightFrame - this.variationPositionY;       
         this.positionYCharacter = this.positionYCharacterInitial;
         this.counterJump = 0;
+        this.invencible = false;
     }
 
     jump() {
@@ -33,12 +34,25 @@ class Character extends Animation{
       }
     }
 
+    getInvencible() {
+      this.invencible = true;
+      setTimeout(() => {
+        this.invencible = false
+      }, 1000);
+    }
+
     collide(characterEnemy) {
+      if(this.invencible) {
+        return false;
+      }
       
-      const collided = collideRectRect(this.positionXCharacter, this.positionYCharacter, this.widthFrame, this.heightFrame,
+      const collided = collideCircleCircle(this.positionXCharacter, this.positionYCharacter, this.widthFrame,
+                                           characterEnemy.positionXCharacter, characterEnemy.positionYCharacter, characterEnemy.widthFrame);
+      
+                      /*collideRectRect(this.positionXCharacter, this.positionYCharacter, this.widthFrame, this.heightFrame,
                       characterEnemy.positionXCharacter, characterEnemy.positionYCharacter, 
                       characterEnemy.widthFrame, characterEnemy.heightFrame) 
-      
+                      */
       return collided;
     }
 }
