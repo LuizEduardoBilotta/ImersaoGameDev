@@ -64,7 +64,7 @@ $ git clone https://github.com/LuizEduardoBilotta/ImersaoGameDev.git
 **OBS:** Caso não inicie a aplicação automaticamente em seu navegador, acesse manualmente digitando na barra de endereços: `127.0.0.1:8887`
 
 ## :bookmark_tabs: Licença
-Este projeto está licenciado nos termos da licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Este projeto está licenciado nos termos da licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
 ## :jigsaw: Contato
 - :mailbox_with_mail: E-mail: <a href="mailto:luizeduardobilotta@gmail.com">luizeduardobilotta@gmail.com</a>
