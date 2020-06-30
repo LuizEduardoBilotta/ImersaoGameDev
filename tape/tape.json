@@ -1,0 +1,28 @@
+{
+    "settings": {
+        "lifeMax": 5,
+        "lifeInitial": 5
+    },
+    
+    "map": [
+        {
+        "enemyMap": 0,
+        "speedMap": 10  
+        },
+    
+        {  
+            "enemyMap": 1,
+            "speedMap": 30  
+        },
+
+        {
+            "enemyMap": 1,
+            "speedMap": 15  
+        },
+
+        {
+            "enemyMap": 0,
+            "speedMap": 20  
+        }
+    ]
+}
