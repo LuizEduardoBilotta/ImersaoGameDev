@@ -20,7 +20,7 @@
 ## :game_die: Status
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/LuizEduardoBilotta/ImersaoGameDev?style=for-the-badge" alt="Repository size">
-  <img src="https://img.shields.io/github/license/LuizEduardoBilotta/ImersaoGameDev?style=for-the-badge" alt="License">
+  <img alt="GitHub" src="https://img.shields.io/github/license/LuizEduardoBilotta/ImersaoGameDev?style=for-the-badge">
   <img src="https://img.shields.io/github/languages/count/LuizEduardoBilotta/ImersaoGameDev?style=for-the-badge&color=eb152a" alt="Counter Languages">
   <img src="https://img.shields.io/github/last-commit/LuizEduardoBilotta/ImersaoGameDev?style=for-the-badge&color=f50cbb" alt="Last commit">
 </p>
