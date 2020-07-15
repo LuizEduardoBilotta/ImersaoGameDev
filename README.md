@@ -32,6 +32,7 @@
 
 ## :toolbox: Tecnologias
 - [Javascript](https://javascript.com/)
+- [p5.js](https://p5js.org/)
 
 ## :heavy_check_mark: Pré-requisitos
 Antes de iniciar, certifique-se que tenha instalado em seu computador um servidor local para que o jogo possa rodar em seu navegador. 
